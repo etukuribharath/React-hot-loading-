@@ -1,0 +1,34 @@
+{
+  "name": "reacthotloading",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "serve": "node node_modules\\webpack-dev-server\\bin\\webpack-dev-server.js --content-base . --hot --inline"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/etukuribharath/React-hot-loading-.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/etukuribharath/React-hot-loading-/issues"
+  },
+  "homepage": "https://github.com/etukuribharath/React-hot-loading-#readme",
+  "dependencies": {
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-1": "^6.13.0",
+    "d": "^1.0.0",
+    "ev": "0.0.7",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^1.15.1"
+  }
+}
