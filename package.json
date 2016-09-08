@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "test": "echo \"Error: no test specified\" && exit 1",
-  "serve": "node node_modules\\webpack-dev-server\\bin\\webpack-dev-server.js --content-base . --hot --inline"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "node node_modules\\webpack-dev-server\\bin\\webpack-dev-server.js --content-base . --hot --inline"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
     "react-dom": "^15.3.1"
   },
   "devDependencies": {
+    "material-ui": "^0.15.4",
     "webpack-dev-server": "^1.15.1"
   }
 }

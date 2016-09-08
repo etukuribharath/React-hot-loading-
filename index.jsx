@@ -1,4 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import MyAwesomeReactComponent from './MyAwesomeReactComponent.jsx';
 
-ReactDOM.render(<h1>hello jkyewkayewgvfasg,meyskfy React</h1>,document.getElementById('content'));
+const App = () => (
+  <MuiThemeProvider>
+    <MyAwesomeReactComponent />
+  </MuiThemeProvider>
+);
+
+ReactDOM.render(<App/>,document.getElementById('content'));
